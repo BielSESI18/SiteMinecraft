@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - The Game of Creation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('path/to/earth_texture.jpg'); /* Replace with the path to the texture */
+            font-family: 'Press Start 2P', cursive;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background-color: #3a3a3a; }
+            100% { background-color: #4b8e4b; }
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000;
+            color: #ffcc00;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: #00ff00;
+            transform: scale(1.1);
+        }
+        section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px #000;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #00ff00;
+            border: none;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #009900;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minecraft</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#history">History</a>
+        <a href="#modes">Game Modes</a>
+        <a href="#downloads">Downloads</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About the Game</h2>
+    <p>Minecraft is a sandbox building game that allows players to create and explore randomly generated worlds. The game combines elements of survival, exploration, and creation, offering a unique experience that captures the imagination of millions of players worldwide.</p>
+</section>
+
+<section id="history">
+    <h2>Game History</h2>
+    <p>Developed by Markus "Notch" Persson and released by Mojang in 2011, Minecraft began as an independent project and quickly became a global phenomenon. The original idea was to create a game that allowed total freedom for players, and this vision became reality with the construction of an infinite world where anything is possible.</p>
+    <p>Since then, the game has undergone several updates, introducing new biomes, creatures, and mechanics, solidifying its status as one of the most influential games of all time.</p>
+</section>
+
+<section id="modes">
+    <h2>Game Modes</h2>
+    <ul>
+        <li><strong>Survival Mode:</strong> Collect resources and survive hostile creatures while building your world.</li>
+        <li><strong>Creative Mode:</strong> Access all resources and build without limitations.</li>
+        <li><strong>Adventure Mode:</strong> Experience custom maps with specific rules.</li>
+        <li><strong>Spectator Mode:</strong> Explore the world without interacting, perfect for observing builds.</li>
+    </ul>
+</section>
+
+<section id="downloads">
+    <h2>Downloads</h2>
+    <p>Download the latest version of Minecraft and start your adventure!</p>
+    <button onclick="alert('Redirecting to the download link!')">Click here to download!</button>
+</section>
+
+<footer>
+    <p>&copy; 2024 Minecraft. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
